@@ -26,14 +26,17 @@ Determining diamond value relies on complex interactions between physical charac
    git clone [https://github.com/JaydenAtu/diamond-price-predictor.git](https://github.com/JaydenAtu/diamond-price-predictor.git)
    cd diamond-price-predictor
 
-2. Install dependencies:
-Bash
-pip install streamlit scikit-learn pandas numpy matplotlib
+2. **Install dependencies:**
+```bash
+   pip install streamlit scikit-learn pandas numpy matplotlib
+````
 
-3. Train the model or place trained binaries:
-Run model_training.ipynb to generate DModel.pkl and scaler.pkl in the root folder.
+3. **Train the model or place trained binaries:**
+```bash
+   Run model_training.ipynb to generate DModel.pkl and scaler.pkl in the root folder.
+```
 
-4. Launch the Streamlit app:
-Bash
-streamlit run Personal.py
+5. **Launch the Streamlit app:**
+```bash
+   streamlit run Personal.py
 
